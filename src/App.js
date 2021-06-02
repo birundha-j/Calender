@@ -59,6 +59,7 @@ function App() {
       }
 
       }else{
+        
       rangeDate=[id]
     }
     showDate()
