@@ -1,0 +1,19 @@
+.design{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.conteainer{
+    text-align: center;
+    width: 30%;
+}
+.outputline{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

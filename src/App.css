@@ -1,38 +1,46 @@
-.App {
+.container{
+  width: 50%;
+  margin:5% auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btnAlign{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.showDays{
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.showDays div:first-child{
+  margin-right: 10px;
+}
+
+.highlightNum{
+  background-color: green;
+}
+
+.highlightNumBw{
+  background-color: rgb(170, 235, 170);
 }
