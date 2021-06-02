@@ -57,7 +57,6 @@ function App() {
         rangeDate.push(rangeDateValue)
 
       }
-
       }else{
       rangeDate=[id]
     }
